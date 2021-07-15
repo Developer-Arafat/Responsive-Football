@@ -1,6 +1,4 @@
-/*============================== 
-       mobile dvaice 
-===============================*/
+/* resposive mobile device */
 
 @media only screen and (max-width: 688px) {
   header {
@@ -26,14 +24,15 @@
   .banner-text h1 {
     font-size: 36px;
     line-height: 50px;
-    /* margin-bottom: 27px; */
   }
   .btn {
     width: 168px;
     height: 44px;
+    transition: 0.8s ease-in-out;
   }
   .btn:hover {
-    box-shadow: inset 168px 0 0 #f9e506;
+    transform: translate(13px);
+    letter-spacing: 4px;
   }
   .banner-img img {
     width: 329px;
@@ -41,9 +40,9 @@
     margin-left: 15px;
   }
 
-  /* banner part end here */
+  /* banner end*/
 
-  /* player part start here */
+  /* player start */
 
   .player-wrapper {
     width: 100%;
@@ -58,27 +57,25 @@
     margin-right: 15px;
   }
 
-  /* player part end here */
+  /* player start */
 
-  /* country part start here */
-  .country {
+  /* flag start */
+  .Flag {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  /* country part end here */
+  /* flag start */
 
-  /* category part start here */
-  .category-wrapper {
+  /* footer-list start */
+  .footer-list-wrapper {
     grid-template-columns: repeat(1, 1fr);
     border: none;
   }
-  .category {
+  .footer-list-item {
     text-align: center;
     margin-bottom: 40px;
   }
-  /* category part end here */
-
-  /* footer part start here */
+  /* footer-list end */
 
   .footer-img img {
     width: 275px;
@@ -87,12 +84,10 @@
   .icon {
     font-size: 18px;
   }
-
-  /* footer part end here */
 }
 
 /*============================== 
-tab and other sami large dvaice
+Tablet responive
 ===============================*/
 
 @media only screen and (min-width: 689px) and (max-width: 991px) {
@@ -107,13 +102,13 @@ tab and other sami large dvaice
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
   }
-  .country {
+  .Flag {
     grid-template-columns: repeat(2, 1fr);
   }
-  .category-wrapper {
+  .footer-list-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
-  .category {
+  .footer-list-item {
     margin-bottom: 40px;
   }
   .footer-img img {
