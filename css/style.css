@@ -76,8 +76,11 @@ a {
   width: 556px;
   height: 438px;
   margin-left: 20px;
+  transition: 0.8s ease-in-out;
 }
-.banner-img:hover
+.banner-img:hover img {
+  transform: scale(1.1);
+}
 
 /*======= player  start  =====*/
 .player-wrapper {
